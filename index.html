@@ -1,0 +1,23 @@
+<!-- Début Module CB∞ -->
+<div id="cboo-dashboard" style="border:2px solid #004d99; padding:20px; margin:20px 0; background:#f0f8ff; border-radius:8px;">
+  <h2 style="color:#004d99;">Tableau de bord CB∞</h2>
+  <p>Suivi rapide de vos ventes et commissions affiliées :</p>
+  <ul>
+    <li>Ventes totales ce mois : <span id="cboo-sales">0</span></li>
+    <li>Commissions en attente : <span id="cboo-commissions">0 €</span></li>
+    <li>Campagnes actives : <span id="cboo-campaigns">0</span></li>
+  </ul>
+  <button onclick="alert('Accès au dashboard complet CB∞ en développement');" style="background:#004d99; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;">
+    Accéder au dashboard complet
+  </button>
+</div>
+
+<script>
+  // Exemple simple de mise à jour dynamique (données factices)
+  document.getElementById('cboo-sales').textContent = '1 250';
+  document.getElementById('cboo-commissions').textContent = '320 €';
+  document.getElementById('cboo-campaigns').textContent = '3';
+
+  // Ici tu peux ajouter l’intégration avec API CB∞ ou tes données réelles
+</script>
+<!-- Fin Module CB∞ -->
